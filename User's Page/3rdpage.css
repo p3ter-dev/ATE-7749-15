@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    zoom: 1.5;
+    height: 480px; 
+}
+
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: gray;
+}
