@@ -1,0 +1,73 @@
+.app-container {
+    width: 38%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    margin-left: 270px;
+    height: 515px;
+}
+
+.photo {
+    width: 50%;
+    height: 180px;
+    border: 1px dashed black;
+    line-height: 180px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+body {
+    zoom: 1.5;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.app-container p {
+    float: right;
+    margin-right: 10px;
+    margin-top: 250px;
+}
+
+.full-role {
+    float: left;
+    margin-left: 10px;
+}
+
+.full-role2 {
+    float: left;
+    margin-left: -69px;
+    margin-top: 60px;
+}
+
+.full-role hr {
+    margin-top: 20px;
+    height: 0.5px;
+    width: 285%;
+}
+
+.full-role2 hr {
+    margin-top: 20px;
+    height: 0.5px;
+    width: 300%;
+}
+
+.full-role3 {
+    float: left;
+    margin-top: 120px;
+    margin-left: -69px;
+}
+
+.full-role3 hr  {
+    margin-top: 20px;
+    height: 0.5px;
+    width: 277%;
+}
+
+.app-container button {
+    margin-top: 250px;
+    float: left;
+    margin-left: -69px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 35%;
+}
