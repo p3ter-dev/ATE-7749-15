@@ -1,0 +1,46 @@
+.app-container {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.welcome-section h1,
+.welcome-section form {
+    text-align: center;
+    margin-top: 20px;
+}
+.welcome-section form input {
+    padding: 20px;
+    font-size: larger;
+    margin-top: 70px;
+}
+
+.button-section {
+    margin-top: 87px;
+}
+
+.scan-button, .register-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+body {
+    zoom: 1.5;
+}
+.scan-button:hover {
+    border-radius: 48px;
+}
+
+.register-button:hover {
+    box-shadow: #818181, 0, 2px, 3px;
+}
+
+.welcome-section h1 {
+    margin-top: -10px;
+}

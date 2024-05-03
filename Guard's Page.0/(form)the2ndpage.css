@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    zoom: 1.7;
+}
+  
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+  
+.form-group {
+    flex: 0 0 47%;
+}
+  
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.role-items select {
+    margin-top: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    padding: 9px;
+    display: flex;
+    box-sizing: border-box;
+    width: 47%;
+}
+
+.role-items2 select {
+    float: right;
+    margin-top: -35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    max-width: 400px;
+    width: 47%;
+}
+
+.phone-photo {
+    margin-top: 30px;
+    display: flex;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    max-width: 400px;
+}
+
+.phone-photo2 {
+    margin-top: -28px;
+    display: flex;
+    padding: 9px;
+    border-radius: 8px;
+    float: right;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 400px;
+    width: 45%;
+}
+
+.ver-get {
+    margin-top: 20px;
+    display: flex;
+    border-radius: 8px;
+    box-sizing: border-box;
+    max-width: 400px;
+}
+
+.ver-get2 {
+    margin-top: -21px;
+    float: right;
+}
+
+.pass {
+    font-size: larger;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.pass-c {
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+.register-button {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 48px;
+    margin-left: 100px;
+    cursor: pointer;
+}
